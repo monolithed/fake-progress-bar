@@ -13,7 +13,7 @@
         "dist/",
         "images/"
     ],
-    "main": "dist/index.jsx",
+    "main": "dist/index.js",
     "peerDependencies": {
         "react": ">=16.8"
     },
