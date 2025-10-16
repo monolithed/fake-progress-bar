@@ -3,7 +3,7 @@
 Компонент прогресс-бара с реалистичной анимацией, имитирующей загрузку.<br/>
 Поддерживает плавное ускорение и замедление в конце.
 
-![cover.png](cover.png)
+![Пример](https://github.com/monolithed/fake-progress-bar/blob/main/cover.png?raw=true)
 
 ### Установка
 
