@@ -1,0 +1,20 @@
+{
+    "name": "fake-progress-bar",
+    "description": "Fake progress bar",
+    "keywords": ["react", "progress-bar"],
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "clean": "rm -rf ./dist",
+        "build": "npm run clean && tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "main": "dist/index.jsx",
+    "peerDependencies": {
+        "react": ">=16.8"
+    },
+    "devDependencies": {
+        "@types/react": "19.2.2",
+        "typescript": "5.9.3"
+    }
+}
