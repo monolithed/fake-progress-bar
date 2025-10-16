@@ -3,6 +3,8 @@
 Компонент прогресс-бара с реалистичной анимацией, имитирующей загрузку.
 Поддерживает плавное ускорение и замедление в конце.
 
+![cover.png](cover.png)
+
 ### Установка
 
 ```sh
@@ -29,9 +31,17 @@ const ProgressBar: React.FunctionComponent = () => {
                              }}
             />
 
-            <button onClick={() => setActive(true)}>Start</button>
-            <button onClick={() => setCompleted(true)}>Complete</button>
-            <button onClick={() => setReset(true)}>Reset</button>
+            <button onClick={() => setActive(true)}>
+                Start
+            </button>
+
+            <button onClick={() => setCompleted(true)}>
+                Complete
+            </button>
+
+            <button onClick={() => setReset(true)}>
+                Reset
+            </button>
         </>
     );
 };
@@ -82,8 +92,6 @@ const ProgressBar: React.FunctionComponent = () => {
 ### Контрибьютинг
 
 Мотивируйте себя отправить PR, поддержки нет.
-
-MIT
 
 ### Лицензия
 
