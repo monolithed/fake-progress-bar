@@ -1,5 +1,5 @@
 {
-    "name": "fake-progress-bar",
+    "name": "@dozora/fake-progress-bar",
     "description": "Fake progress bar",
     "keywords": ["react", "progress-bar"],
     "version": "1.0.0",
