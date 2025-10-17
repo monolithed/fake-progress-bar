@@ -1,17 +1,17 @@
 {
-    "name": "@dozora/fake-progress-bar",
+    "name": "fake-progress-bar",
     "description": "Fake progress bar",
     "keywords": ["react", "progress-bar"],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
+    "repository": "https://github.com/monolithed/fake-progress-bar",
     "scripts": {
         "clean": "rm -rf ./dist",
         "build": "npm run clean && tsc",
         "prepublishOnly": "npm run build"
     },
     "files": [
-        "dist/",
-        "images/"
+        "dist/"
     ],
     "main": "dist/index.js",
     "peerDependencies": {
