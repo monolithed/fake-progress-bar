@@ -1,7 +1,7 @@
 {
     "name": "fake-progress-bar",
     "description": "Fake progress bar",
-    "keywords": ["react", "progress-bar"],
+    "keywords": ["react", "spinner", "loader", "preloader", "trickling" , "progress-bar"],
     "version": "1.0.0",
     "license": "MIT",
     "repository": "https://github.com/monolithed/fake-progress-bar",
